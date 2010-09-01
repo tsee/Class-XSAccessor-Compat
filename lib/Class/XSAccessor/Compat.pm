@@ -7,7 +7,7 @@ use Class::XSAccessor;
 use Class::Accessor::Fast;
 our @ISA = qw(Class::Accessor::Fast);
 
-# The following is almost 100% the same as Ruzlan Zakirov's code:
+# The following is almost 100% the same as Ruslan Zakirov's code:
 sub make_ro_accessor {
   my($class, $field) = @_;
 
